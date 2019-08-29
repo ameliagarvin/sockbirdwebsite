@@ -311,10 +311,10 @@ nav {
 
 .tab-inside {
   width: 100%;
-  max-width: 720px;
   margin: 0 auto;
-  height: 100vh;
+  max-width: 600px;
   min-height: 400px;
+  margin-bottom: 4em;
   /* transform: skewY(1.5deg); */
 }
 

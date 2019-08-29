@@ -265,13 +265,14 @@
     </div>
   </a>
 </div>
-  </div>
-  <h3>Founders</h3>
+<h3>Founders</h3>
   <span class="line"></span>
   <h3>Recognition</h3>
   <span class="line"></span>
   <h3>Partners</h3>
   <span class="line"></span>
+  </div>
+  
  </div>
 
 <div id="News" class="tabcontent">
