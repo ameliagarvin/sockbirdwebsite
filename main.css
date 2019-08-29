@@ -53,6 +53,7 @@ nav {
   max-width: 1000px;
   margin: 0 auto;
   justify-content: space-evenly;
+  height: 45px;
 }
 
 .nav-ctn {
@@ -86,7 +87,7 @@ nav {
 
 .logo {
   width: 40%;
-  max-width: 60px;
+  max-width: 45px;
 }
 
 /* Collapsable Navigation bar */
@@ -281,7 +282,8 @@ nav {
   width: 100%;
 }
 
-.tablink:hover {
+.tablink:hover,
+.tablink:active {
   background-color: #1e90ff !important;
   color: #fff;
 }
@@ -311,6 +313,8 @@ nav {
   width: 100%;
   max-width: 720px;
   margin: 0 auto;
+  height: 100vh;
+  min-height: 400px;
   /* transform: skewY(1.5deg); */
 }
 
@@ -863,8 +867,8 @@ footer {
 
 .header {
   width: 100%;
-  padding: 0.25em;
   display: flex;
+  justify-content: center;
   height: 45px;
   background: white;
   color: #f1f1f1;
